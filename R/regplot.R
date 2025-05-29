@@ -2027,7 +2027,7 @@ make_space <- 2 +(ntimes-1)*0.6
 
 if(FIRSTRUN) { 
   # if(dev.cur() > 1) dev.off() 
-  plot.new()
+  # plot.new()
   
   ## not sure about plotmargin, value seems to have no effect 
   ## whatsoever.
