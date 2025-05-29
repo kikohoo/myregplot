@@ -2026,7 +2026,7 @@ if(!is.null(strata_levels)) nstrata <- length(strata_levels)
 make_space <- 2 +(ntimes-1)*0.6 
 
 if(FIRSTRUN) { 
-  if(dev.cur() > 1) dev.off() 
+  # if(dev.cur() > 1) dev.off() 
   plot.new()
   
   ## not sure about plotmargin, value seems to have no effect 
