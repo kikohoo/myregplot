@@ -1,4 +1,4 @@
-Package: regplot
+Package: myregplot
 Type: Package
 Title: Enhanced Regression Nomogram Plot
 Version: 1.1
